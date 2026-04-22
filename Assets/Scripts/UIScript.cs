@@ -12,12 +12,10 @@ public class UIScript : MonoBehaviour
     public GameObject Zobens;
     public GameObject Lata;
     public GameObject Lampa;
-    public GameObject toggleLeft;
-    public GameObject toggleRight;
     public GameObject imageField;
     public Sprite[] sprites;
-    public GameObject rotationSlider;
-    public GameObject scaleSlider;
+    public GameObject heightSlider;
+    public GameObject widthSlider;
 
 
     public void Riki1Toggle(bool val)
@@ -38,27 +36,28 @@ public class UIScript : MonoBehaviour
         Lata.SetActive(val);
         Lampa.SetActive(val);
     }
-
-
-    public void Flip(int val)
-    {
-        Kruze.transform.localScale = new Vector2(val, 1);
-    }
-
     public void ChangeSprite(int val)
     {
         imageField.GetComponent<Image>().sprite = sprites[val];
     }
 
-    public void Rotate()
+    public void Height()
     {
-        float currentValue = rotationSlider.GetComponent<Slider>().value;
-        imageField.transform.rotation = Quaternion.Euler(0, 0, currentValue * 360);
+        float currentValue = heightSlider.GetComponent<Slider>().value;
+        imageField.transform.localScale = new Vector3(
+            imageField.transform.localScale.x,
+            currentValue,
+            imageField.transform.localScale.z
+        );
     }
 
-    public void Scale()
+    public void Width()
     {
-        float currentValue = scaleSlider.GetComponent<Slider>().value;
-        imageField.transform.localScale = new Vector2(1f * currentValue, 1f * currentValue);
+        float currentValue = widthSlider.GetComponent<Slider>().value;
+        imageField.transform.localScale = new Vector3(
+            currentValue,
+        imageField.transform.localScale.y,
+        imageField.transform.localScale.z
+        );
     }
 }
