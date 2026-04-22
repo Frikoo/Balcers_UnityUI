@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 76351683}
   - component: {fileID: 76351685}
   - component: {fileID: 76351684}
+  - component: {fileID: 76351686}
   m_Layer: 0
   m_Name: Kivere
   m_TagString: Untagged
@@ -505,6 +506,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76351682}
   m_CullTransparentMesh: 1
+--- !u!114 &76351686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76351682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &86148658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,6 +1415,7 @@ GameObject:
   - component: {fileID: 317857691}
   - component: {fileID: 317857693}
   - component: {fileID: 317857692}
+  - component: {fileID: 317857694}
   m_Layer: 0
   m_Name: Lata
   m_TagString: Untagged
@@ -1465,6 +1480,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317857690}
   m_CullTransparentMesh: 1
+--- !u!114 &317857694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317857690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &394163717
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,6 +2922,7 @@ GameObject:
   - component: {fileID: 698178472}
   - component: {fileID: 698178474}
   - component: {fileID: 698178473}
+  - component: {fileID: 698178475}
   m_Layer: 0
   m_Name: Kruze
   m_TagString: Untagged
@@ -2958,6 +2987,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 698178471}
   m_CullTransparentMesh: 1
+--- !u!114 &698178475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698178471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &727671449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,6 +3125,7 @@ GameObject:
   - component: {fileID: 756873476}
   - component: {fileID: 756873478}
   - component: {fileID: 756873477}
+  - component: {fileID: 756873479}
   m_Layer: 0
   m_Name: Zobens
   m_TagString: Untagged
@@ -3147,6 +3190,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756873475}
   m_CullTransparentMesh: 1
+--- !u!114 &756873479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756873475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &790867088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3331,6 +3387,7 @@ GameObject:
   - component: {fileID: 857365960}
   - component: {fileID: 857365962}
   - component: {fileID: 857365961}
+  - component: {fileID: 857365963}
   m_Layer: 0
   m_Name: Lampa
   m_TagString: Untagged
@@ -3395,6 +3452,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857365959}
   m_CullTransparentMesh: 1
+--- !u!114 &857365963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857365959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &867804628
 GameObject:
   m_ObjectHideFlags: 0
@@ -3874,6 +3944,7 @@ GameObject:
   - component: {fileID: 1061094264}
   - component: {fileID: 1061094266}
   - component: {fileID: 1061094265}
+  - component: {fileID: 1061094267}
   m_Layer: 0
   m_Name: Dimants
   m_TagString: Untagged
@@ -3938,6 +4009,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061094263}
   m_CullTransparentMesh: 1
+--- !u!114 &1061094267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061094263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &1122761683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4095,6 +4179,7 @@ GameObject:
   - component: {fileID: 1161310044}
   - component: {fileID: 1161310046}
   - component: {fileID: 1161310045}
+  - component: {fileID: 1161310047}
   m_Layer: 0
   m_Name: Lade
   m_TagString: Untagged
@@ -4159,6 +4244,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161310043}
   m_CullTransparentMesh: 1
+--- !u!114 &1161310047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161310043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &1168186865
 GameObject:
   m_ObjectHideFlags: 0
@@ -6957,6 +7055,7 @@ GameObject:
   - component: {fileID: 1818417443}
   - component: {fileID: 1818417445}
   - component: {fileID: 1818417444}
+  - component: {fileID: 1818417446}
   m_Layer: 0
   m_Name: Diskete
   m_TagString: Untagged
@@ -7021,6 +7120,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818417442}
   m_CullTransparentMesh: 1
+--- !u!114 &1818417446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818417442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &1818887610
 GameObject:
   m_ObjectHideFlags: 0
@@ -7741,6 +7853,7 @@ GameObject:
   - component: {fileID: 2038347306}
   - component: {fileID: 2038347308}
   - component: {fileID: 2038347307}
+  - component: {fileID: 2038347309}
   m_Layer: 0
   m_Name: Kauss
   m_TagString: Untagged
@@ -7805,6 +7918,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038347305}
   m_CullTransparentMesh: 1
+--- !u!114 &2038347309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038347305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63218c30aedae6846bb3e3a87750e2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DragScript
+  canvas: {fileID: 1234229122}
 --- !u!1 &2060625722
 GameObject:
   m_ObjectHideFlags: 0
