@@ -1123,6 +1123,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 286102266}
+        m_TargetAssemblyTypeName: SceneChangerScript, Assembly-CSharp
+        m_MethodName: LoadWithDelay
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Main
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &202180104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1323,6 +1335,7 @@ GameObject:
   - component: {fileID: 286102262}
   - component: {fileID: 286102264}
   - component: {fileID: 286102265}
+  - component: {fileID: 286102266}
   m_Layer: 0
   m_Name: ScriptHolder
   m_TagString: Untagged
@@ -1404,6 +1417,18 @@ MonoBehaviour:
   - {fileID: 5662836898120103918, guid: f6253737f3d01bd4ebeb4a07ec2ff34b, type: 3}
   heightSlider: {fileID: 867804628}
   widthSlider: {fileID: 561212480}
+--- !u!114 &286102266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286102261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164af17fc18d0ff4287ca7efd90a628c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangerScript
 --- !u!1 &317857690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2090,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
         m_MethodName: PlaySFX
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 286102266}
+        m_TargetAssemblyTypeName: SceneChangerScript, Assembly-CSharp
+        m_MethodName: QuitApplication
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
